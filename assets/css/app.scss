@@ -1,0 +1,7 @@
+// Vendors
+$mdi-font-path: '~@mdi/font/fonts';
+@import "~@mdi/font/scss/materialdesignicons";
+
+@import "./_global.scss";
+@import "./_tailwind.scss";
+@import "./_override.scss";

@@ -1,0 +1,51 @@
+html, body {
+  font-size: 14px;
+  @apply .bg-gray-200 .h-full .text-gray-700;
+  font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", "Microsoft YaHei", 微软雅黑, sans-serif;
+}
+
+.card {
+  @apply .bg-white .shadow;
+}
+
+.avatar {
+  @apply .h-4 .w-4 .rounded-full .shadow;
+}
+
+.review-image {
+  @apply .h-24 .w-24 .shadow;
+}
+
+.department-path {
+  font-size: 8px;
+  color: #8c8f92;
+  padding-top: 10px;
+}
+
+.more-drawer {
+  color: #6495ed;
+  padding-top: 3px;
+}
+
+.mime-span {
+  background: #c0c0c0;
+  color: #fff;
+  padding: 1px 5px;
+  line-height: 14px;
+  font-size: 12px;
+  height: 16px;
+}
+
+.download-dravwer {
+  padding-top: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.download-dravwer-btn {
+  width: 80%;
+  display:inline-block;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}

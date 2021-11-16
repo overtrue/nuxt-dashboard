@@ -1,0 +1,47 @@
+#__layout {
+  @apply .min-h-screen;
+
+  -webkit-font-smoothing: initial;
+
+  .el-menu-item {
+    font-size: 16px;
+  }
+
+  .el-table {
+    @apply .rounded .shadow;
+
+    th {
+      @apply .bg-gray-100 .py-1;
+    }
+
+    td {
+      @apply .py-2 .text-gray-600;
+    }
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .el-form-item__label {
+    line-height: 1;
+  }
+
+  .el-date-editor.el-input,
+  .el-date-editor.el-input__inner {
+    width: 100%;
+  }
+
+  .mce-tinymce {
+    box-shadow: none !important;
+  }
+
+  .mce-panel {
+    border-color: #dcdfe6 !important;
+  }
+
+  img {
+    display: inline-block;
+  }
+
+}
