@@ -18,5 +18,11 @@ $ yarn generate
 ```
 
 Icon字体库：https://materialdesignicons.com/
-```
+
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Project supported by JetBrains
+
+Many thanks to Jetbrains for kindly providing a license for me to work on this and other open-source projects.
+
+[![](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)](https://www.jetbrains.com/?from=https://github.com/overtrue)
